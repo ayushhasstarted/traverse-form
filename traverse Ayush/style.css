@@ -1,0 +1,131 @@
+body {
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.myorder1 {
+    background: rgb(153, 69, 69);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0;
+    height: 25px;
+    padding: 1rem 0;
+    border-radius: 8px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.mylis1 {
+    list-style: none;
+    margin-right: 7rem;
+}
+
+.mylis1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.mylis1 a:hover {
+    color: #00A36C;
+    transition: all 200ms ease-in;
+}
+
+.mylis1:first-child {
+    margin-right: auto;
+}
+
+.mybutton1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    background-color: #9FE2BF;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: all 200ms ease-in;
+}
+
+.mybutton1:hover {
+    background: #00A36C;
+}
+
+
+h1 {
+    font-size: 3rem;
+    color: #1a0e0e;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.traverse-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.traverse-box {
+    background-color: #a19292;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 45%;
+    max-width: 500px;
+}
+
+.traverse-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.traverse-box h3 {
+    margin-top: 0;
+    color: #0e4432;
+}
+
+.traverse-box p {
+    color: #333;
+    line-height: 1.6;
+}
+
+.header-section {
+    position: relative;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images.jpeg');
+    background-size: cover;
+    background-position: center 30%;
+    margin-top: 20px;
+
+
+}
+
+.header-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 3rem;
+    color: #4a21aa;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    transform: translateY(100px);
+
+}
